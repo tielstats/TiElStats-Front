@@ -1,0 +1,43 @@
+div.profile-stats{
+    background: #fff;
+    margin: 10px;
+    max-width: 270px;
+    float: left;
+    box-shadow: 1px 1px 12px #00000040;
+    border-radius: 3px;
+}
+div.profile-stats:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+div.primary-bg{
+    height: 158px;
+    width: 85px;
+    margin-bottom: -20px;
+    float: left;
+    background: #0045ad;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+img{
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 30px;
+    position: absolute;
+    margin-left: -50px;
+}
+div.profile-stats > div:last-child{
+    width: 135px;
+    float: left;
+    padding: 10px 30px 10px 20px;
+    text-align: right;
+    background: #fff;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+span.bold-text{
+    color: #0045ad;
+    font-weight: 600;
+    padding-left: 10px;
+}

@@ -1,0 +1,33 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+div{
+    height: 30px;
+    background: #fff;
+    padding: 5px 20px;
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.02), 0 6px 10px 0 rgba(0,0,0,.04), 0 1px 18px 0 rgba(0,0,0,.02);
+    margin-bottom: 15px;
+}
+div p{
+    margin: 5px 0;
+}
+div button-img, button-icon{
+    float: right;
+    margin-top: -25px;
+    position: relative;
+    z-index: 1;
+}
+input{
+    float: right;
+    padding: 5px;
+    top: 0;
+    margin-top: -25px;
+    margin-right: 20px;
+    border: none;
+    border-bottom: 2px solid #0045ad;
+}
+.search-icon{
+    float: right;
+    margin-top: -21px;
+    margin-right: 5px;
+    color: #0045ad;
+}
